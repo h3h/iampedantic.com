@@ -196,8 +196,12 @@ q:before, q:after {
 }
 .post.text ul,
 .post.text ol {
-  margin-top: 1em;
+  margin: 1em 0;
   padding-left: 1.5em;
+}
+.post.text ul:last-child,
+.post.text ol:last-child {
+  margin-bottom: 0;
 }
 .post.text ol li {
   list-style-type: decimal;
@@ -245,7 +249,7 @@ q:before, q:after {
 
 .comments {
   margin: 3em auto;
-  text-align: center;
+  text-align: left;
   width: 750px;
 }
 
