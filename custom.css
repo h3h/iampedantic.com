@@ -1,0 +1,26 @@
+#search-form input {
+  outline: none !important
+}
+.post pre {
+  background-color: #002240;
+  color: #e6e0db;
+  font-size: 14px;
+  margin: 20px 0 30px;
+  padding: 0 15px 15px;
+  overflow: auto;
+}
+.post pre,
+.post code {
+  font-family: "Monaco", "Courier New", "Terminal", monospace;
+  overflow: auto;
+  text-shadow: none !important;
+}
+pre code span.comment { color: #8DA8AA; opacity: 0.77; }
+pre code span.string { color: #86D9AB; }
+pre code span.symbol { color: #FF4FB5; }
+pre code span.keywords { color: #D28DFF; }
+pre code span.classes { color: #409CE5; }
+pre code span.instancevars { color: #CC98BA; }
+pre code.html span.tag { color: #9EFFFF; }
+pre code.html span.attribute { color: #8DC5E6; }
+pre code.html span.doctype { color: #8DA8AA; opacity: 0.77; }
